@@ -1,0 +1,37 @@
+body {
+	background: url('CNA_Building_rotated1.jpg') no-repeat;
+	background-position: -434px 0; 
+}
+.building {
+	width: 300px;
+	height: 400px; 
+	margin-top: 220px;
+	margin-left: 455px;
+}
+.window-column {
+	height: 571px;
+	width: 80px; 
+	background-color: red; 
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.window {
+	height: 16px;
+	width: 16px; 	
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	float: left;
+	background-color: grey;
+}
+.window.on {
+	background-color: white; 
+}
+.form {
+	height: 30px;
+	width: 300px;
+  margin-top: 300px
+  background-color: blue;
+}

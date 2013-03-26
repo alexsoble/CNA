@@ -1,0 +1,32 @@
+<div class="building">
+		<div class="window-column" style="margin-top: -12px;">
+			<% 0.upto(22) do |row| %>
+				<% Window.offset(row*4).limit(4).each do |w| %>
+					<div class=window id=window-<%= w.id %>></div>
+				<% end %>
+				<br>
+			<% end %>
+		</div>
+		<div class="window-column" style="margin-top: -6px;">
+			<% 0.upto(22) do |row| %>
+				<% Window.offset((row*4)+88).limit(4).each do |w| %>
+					<div class=window id=window-<%= w.id %>></div>
+				<% end %>
+				<br>
+			<% end %>
+		</div>
+		<div class="window-column" style="margin-top: 0px;">
+			<% 0.upto(22) do |row| %>
+				<% Window.offset((row*4)+176).limit(4).each do |w| %>
+					<div class=window id=window-<%= w.id %>></div>
+				<% end %>
+				<br>
+			<% end %>
+		</div>
+	<div class="form">
+		<%= form_tag '/submit' %>
+			<%= text_field_tag 'Name' %>
+			<br>
+		<%= submit_tag 'My Name' %>
+	</div>
+</div> 		

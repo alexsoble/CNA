@@ -5,7 +5,7 @@ body {
 .building {
 	width: 300px;
 	height: 400px; 
-	margin-top: 218px;
+	margin-top: 158px;
 	margin-left: 463px;
 }
 .window-column {
@@ -28,8 +28,4 @@ body {
 }
 .window.on {
 	background-color: white; 
-}
-.form {
-	margin-top: 566px;
-	margin-left: 463px;
 }

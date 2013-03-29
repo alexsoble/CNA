@@ -26,8 +26,7 @@
 </div>
 
 <div class="row" style="background-color: white; margin-top: 200px; height: 600px;">
-  <div class="span5"></div>
-  <div class="span5">
+  <div class="span5 offset5">
   	<br>
 		<h1>Share</h1>
 			<%= form_tag '/submit' %>
@@ -35,5 +34,4 @@
 				<%= text_field_tag 'strength', nil, :placeholder => 'What makes me strong' %><br>
 				<%= submit_tag 'Submit' %>  
   </div>
-  <div class="span2"></div>
 </div>
